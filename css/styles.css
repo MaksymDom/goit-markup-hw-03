@@ -78,7 +78,7 @@ ul {
     padding: 24px 0;
     display: block;
     margin-right: 76px;
-
+    text-transform: uppercase;
 }
 
 .logo-header-text {
@@ -309,13 +309,30 @@ header {
 .portfolio-container {
     align-items: flex-start;
     padding-top: 32px;
-    border 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
 /*footer*/
 .site-footer {
     background-color: #2E2F42;
+    height: 312px;
+    padding: 100px 0;
+
+}
+
+.logo-footer {
+    color: var(--iris, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    padding: 24px 0;
+    display: block;
+    margin-right: 76px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
 }
 
 .logo-footer-text {
@@ -327,4 +344,5 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }

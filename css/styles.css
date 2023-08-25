@@ -74,7 +74,6 @@ ul {
 }
 
 .header-adress {
-    padding: 24px 0;
     gap: 40px;
 }
 
@@ -110,6 +109,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
 
 }
 
@@ -142,7 +142,6 @@ header {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    display: flex;
 }
 
 .container-hero {
@@ -160,8 +159,6 @@ header {
     color: white;
     margin-right: auto;
     margin-left: auto;
-
-    display: flex;
     max-width: 496px;
 }
 
@@ -335,7 +332,6 @@ header {
 /*footer*/
 .site-footer {
     background-color: #2E2F42;
-    height: 312px;
     padding: 100px 0;
 
 }
@@ -347,9 +343,7 @@ header {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding: 24px 0;
     display: block;
-    margin-right: 76px;
     margin-bottom: 16px;
     text-transform: uppercase;
     display: inline-block;
